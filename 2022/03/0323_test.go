@@ -18,7 +18,7 @@ import "testing"
 int 是一个独特的类型，它的大小跟CPU有关，如果CPU是32位，它就是32位，如果CPU是64位，它就是64位
 rune 就是一个int32 的别名，一般用rune 表示字符，int32表示数字
 */
-func TestA(t *testing.T) {
+func Test0323(t *testing.T) {
 	var x int32 = 32.0
 	//var y int = x
 	var z rune = x
